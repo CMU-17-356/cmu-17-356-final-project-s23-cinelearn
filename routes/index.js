@@ -12,7 +12,7 @@ var Mixpanel = require('mixpanel');
 var mixpanel = Mixpanel.init('ececd3d662d1259408c9b162565367ef');
 
 // var privateKey = fs.readFileSync('./private-key.pem', 'utf8');
-/* GET home page. */
+/* GET home page. */ 
 const connection = mysql.createConnection({
   host: 'database-1.cvifg4azbmac.us-east-2.rds.amazonaws.com',
   port: 3306,
